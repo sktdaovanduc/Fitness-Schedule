@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Bulking Long Anh - High Contrast Edition</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #090d16; /* Nền tối sâu giảm mỏi mắt */
+            background-image: radial-gradient(circle at 50% 50%, #111827 0%, #070a10 100%);
+        }
+        .canva-card {
+            background: rgba(17, 24, 39, 0.85);
+            border: 1px solid rgba(34, 211, 238, 0.3); /* Viền Cyan sắc nét */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 15px rgba(34, 211, 238, 0.05);
+            backdrop-filter: blur(12px);
+        }
+        .tet-gradient-text {
+            background: linear-gradient(135deg, #22d3ee 0%, #06b6d4 50%, #0891b2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 2px 10px rgba(34, 211, 238, 0.2);
+        }
+        .tet-btn-active {
+            background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+            color: #ffffff;
+            border: 2px solid #22d3ee;
+            box-shadow: 0 4px 15px rgba(6, 182, 212, 0.4);
+        }
+        .tet-btn-inactive {
+            background: rgba(31, 41, 55, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #9ca3af;
+        }
+        .tet-btn-inactive:hover {
+            background: rgba(6, 182, 212, 0.15);
+            border-color: #22d3ee;
+            color: #ffffff;
+        }
+        .gold-border {
+            border-color: #22d3ee;
+        }
+        .chinese-font {
+            font-family: 'Inter', sans-serif;
+            font-weight: 900;
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #090d16;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #22d3ee;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="text-slate-100 min-h-screen pb-12 antialiased">
+
+    <!-- Header Section (Athletic High-Contrast Banner) -->
+    <div class="relative overflow-hidden bg-gradient-to-b from-[#111827] to-[#090d16] border-b-4 border-[#22d3ee] py-10 px-4 sm:px-6 lg:px-8 shadow-2xl">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent"></div>
+
+        <div class="max-w-7xl mx-auto relative z-10 flex flex-col items-center text-center">
+            <div class="flex items-center gap-3 mb-2">
+                <span class="text-[#22d3ee] text-2xl">⚡</span>
+                <span class="px-4 py-1 text-xs font-bold text-[#ffffff] bg-[#0891b2]/80 border border-[#22d3ee]/60 rounded-full uppercase tracking-widest">LONG ANH ATHLETE PLAN</span>
+                <span class="text-[#22d3ee] text-2xl">⚡</span>
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl font-black tracking-widest mt-2 text-white">
+                VU LONG ANH <span class="tet-gradient-text">BULKING PROGRESS</span>
+            </h1>
+            
+            <p class="text-slate-400 mt-3 text-sm md:text-base max-w-2xl font-medium">
+                "Kỷ luật tuyệt đối, tối ưu hóa kích thước cơ bắp và phục hồi hiệu quả"
+            </p>
+
+            <!-- Quick Indicators -->
+            <div class="flex flex-wrap justify-center gap-6 mt-6 text-xs text-slate-300">
+                <span class="flex items-center gap-1.5 bg-slate-900 px-4 py-2 rounded-xl border border-cyan-500/30">
+                    <i class="fa-solid fa-fire-flame-curved text-cyan-400"></i> Mục tiêu: Hypertrophy & Bulk
+                </span>
+                <span class="flex items-center gap-1.5 bg-slate-900 px-4 py-2 rounded-xl border border-cyan-500/30">
+                    <i class="fa-solid fa-hourglass-half text-cyan-400"></i> Thời gian nghỉ: 60s - 90s
+                </span>
+                <span class="flex items-center gap-1.5 bg-slate-900 px-4 py-2 rounded-xl border border-cyan-500/30">
+                    <i class="fa-solid fa-person-walking text-emerald-400"></i> Cardio: Đi bộ dốc 12%
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+        
+        <!-- MAIN DASHBOARD LAYOUT -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            
+            <!-- LEFT PANEL: DAYS & TOOLS SELECTOR -->
+            <div class="lg:col-span-4 space-y-6">
+                
+                <!-- Day Selectors with Modern High Contrast Theme -->
+                <div class="canva-card rounded-3xl p-6 shadow-2xl relative">
+                    <h3 class="text-lg font-bold mb-4 text-[#22d3ee] flex items-center gap-2 border-b border-cyan-500/20 pb-2">
+                        <i class="fa-solid fa-calendar-days"></i> LỊCH TẬP CHI TIẾT
+                    </h3>
+                    
+                    <div class="flex flex-row lg:flex-col gap-2 overflow-x-auto pb-2 lg:pb-0 scrollbar-none">
+                        <!-- Monday -->
+                        <button id="btn-t2" onclick="switchDay('t2')" class="tet-btn-active w-full flex items-center justify-between gap-4 p-3.5 rounded-xl text-left font-bold text-sm transition-all duration-300 min-w-[130px] lg:w-full">
+                            <span class="flex items-center gap-3">
+                                <span class="w-8 h-8 rounded-lg bg-white/20 text-white flex items-center justify-center text-xs font-black border border-white/40">T2</span>
+                                <span>Ngực - Tay</span>
+                            </span>
+                            <span class="text-[10px] bg-slate-950 px-2 py-0.5 rounded text-cyan-300 hidden lg:inline">Hypertrophy</span>
+                        </button>
+
+                        <!-- Tuesday -->
+                        <button id="btn-t3" onclick="switchDay('t3')" class="tet-btn-inactive w-full flex items-center justify-between gap-4 p-3.5 rounded-xl text-left font-bold text-sm transition-all duration-300 min-w-[130px] lg:w-full">
+                            <span class="flex items-center gap-3">
+                                <span class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center text-xs font-black border border-slate-700">T3</span>
+                                <span>Lưng - Vai</span>
+                            </span>
+                            <span class="text-[10px] bg-slate-950 px-2 py-0.5 rounded text-cyan-400 hidden lg:inline">V-Taper</span>
+                        </button>
+
+                        <!-- Wednesday -->
+                        <button id="btn-t4" onclick="switchDay('t4')" class="tet-btn-inactive w-full flex items-center justify-between gap-4 p-3.5 rounded-xl text-left font-bold text-sm transition-all duration-300 min-w-[130px] lg:w-full">
+                            <span class="flex items-center gap-3">
+                                <span class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center text-xs font-black border border-slate-700">T4</span>
+                                <span>Cột Trụ Chân</span>
+                            </span>
+                            <span class="text-[10px] bg-slate-950 px-2 py-0.5 rounded text-cyan-400 hidden lg:inline">Lower Body</span>
+                        </button>
+
+                        <!-- Thursday -->
+                        <button id="btn-t5" onclick="switchDay('t5')" class="tet-btn-inactive w-full flex items-center justify-between gap-4 p-3.5 rounded-xl text-left font-bold text-sm transition-all duration-300 min-w-[130px] lg:w-full">
+                            <span class="flex items-center gap-3">
+                                <span class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center text-xs font-black border border-slate-700">T5</span>
+                                <span>Ngực - Tay</span>
+                            </span>
+                            <span class="text-[10px] bg-slate-950 px-2 py-0.5 rounded text-cyan-400 hidden lg:inline">Hypertrophy</span>
+                        </button>
+
+                        <!-- Friday -->
+                        <button id="btn-t6" onclick="switchDay('t6')" class="tet-btn-inactive w-full flex items-center justify-between gap-4 p-3.5 rounded-xl text-left font-bold text-sm transition-all duration-300 min-w-[130px] lg:w-full">
+                            <span class="flex items-center gap-3">
+                                <span class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center text-xs font-black border border-slate-700">T6</span>
+                                <span>Lưng - Vai</span>
+                            </span>
+                            <span class="text-[10px] bg-slate-950 px-2 py-0.5 rounded text-cyan-400 hidden lg:inline">V-Taper</span>
+                        </button>
+
+                        <!-- Saturday -->
+                        <button id="btn-t7" onclick="switchDay('t7')" class="tet-btn-inactive w-full flex items-center justify-between gap-4 p-3.5 rounded-xl text-left font-bold text-sm transition-all duration-300 min-w-[130px] lg:w-full">
+                            <span class="flex items-center gap-3">
+                                <span class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center text-xs font-black border border-slate-700">T7</span>
+                                <span>Hủy Diệt Đùi</span>
+                            </span>
+                            <span class="text-[10px] bg-slate-950 px-2 py-0.5 rounded text-cyan-400 hidden lg:inline">Massive Leg</span>
+                        </button>
+
+                        <!-- Sunday -->
+                        <button id="btn-cn" onclick="switchDay('cn')" class="tet-btn-inactive w-full flex items-center justify-between gap-4 p-3.5 rounded-xl text-left font-bold text-sm transition-all duration-300 min-w-[130px] lg:w-full">
+                            <span class="flex items-center gap-3">
+                                <span class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center text-xs font-black border border-slate-700">CN</span>
+                                <span>Xả Cơ Hồi Phục</span>
+                            </span>
+                            <span class="text-[10px] bg-emerald-900/40 px-2 py-0.5 rounded text-emerald-200 hidden lg:inline">Phục hồi</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- REST TIMER (ĐỒNG HỒ NGHỈ) - HIGH CONTRAST -->
+                <div class="canva-card rounded-3xl p-6 shadow-2xl relative overflow-hidden">
+                    <h3 class="text-base font-bold mb-3 text-[#22d3ee] flex items-center gap-2">
+                        <i class="fa-solid fa-hourglass-start text-cyan-400"></i> BẤM GIỜ NGHỈ (60S - 90S)
+                    </h3>
+                    
+                    <div class="bg-slate-900/90 p-4 rounded-2xl border border-cyan-500/25 flex items-center justify-between">
+                        <div>
+                            <div id="timer-display" class="text-3xl font-black tracking-widest text-cyan-400">01:30</div>
+                            <span class="text-[10px] text-slate-400">Không nghỉ quá 90s giữa hiệp</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="toggleTimer()" id="btn-timer-control" class="w-10 h-10 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 text-[#22d3ee] border border-cyan-500/40 flex items-center justify-center text-base transition duration-200">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                            <button onclick="resetTimer()" class="w-10 h-10 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 flex items-center justify-center text-base transition duration-200">
+                                <i class="fa-solid fa-rotate-left"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GENERAL CORE-CARDIO INSTRUCTIONS -->
+                <div class="canva-card rounded-3xl p-6 shadow-2xl bg-gradient-to-br from-slate-900 to-slate-950 border-l-4 border-cyan-400">
+                    <h4 class="text-[#22d3ee] font-bold text-sm mb-3 flex items-center gap-2 uppercase tracking-wider">
+                        <i class="fa-solid fa-circle-check text-cyan-400"></i> Quy tắc vàng cuối buổi
+                    </h4>
+                    <ul class="space-y-3 text-xs text-slate-300">
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-cyan-400 mt-1"><i class="fa-solid fa-chevron-right text-[9px]"></i></span>
+                            <span><b>Đi bộ dốc:</b> Cuối mỗi buổi tập, đi bộ dốc nghiêng <b>dốc 12%</b>, <b>tốc độ 4.5 km/h</b> trong vòng <b>30 phút</b>.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-cyan-400 mt-1"><i class="fa-solid fa-chevron-right text-[9px]"></i></span>
+                            <span><b>Tập cơ bụng:</b> Thực hiện cách ngày một lần (1 ngày tập, 1 ngày nghỉ): Gập bụng (3 Sets × 15 reps) + Đá bụng (3 Sets × 15 reps).</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- RIGHT PANEL: DETAILED SCHEDULE -->
+            <div class="lg:col-span-8">
+                
+                <!-- THỨ HAI: NGỰC - TAY -->
+                <div id="panel-t2" class="day-panel space-y-6">
+                    <div class="canva-card rounded-3xl p-6 shadow-2xl relative overflow-hidden">
+                        <div class="flex flex-col sm:flex-row justify-between items-start gap-4 border-b border-slate-700 pb-4 mb-4">
+                            <div>
+                                <span class="text-xs font-semibold text-cyan-400 tracking-widest uppercase">Thứ Hai • Sức Mạnh Ngực & Tay</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-white mt-1">NGỰC - TAY TRƯỚC TAY SAU</h3>
+                            </div>
+                            <div class="bg-slate-900 border border-cyan-500/30 px-4 py-2 rounded-2xl text-center min-w-[120px]">
+                                <p class="text-[10px] text-slate-400 uppercase font-bold">Thời gian</p>
+                                <p class="text-lg font-black text-white">75 - 90 Phút</p>
+                            </div>
+                        </div>
+
+                        <!-- Focus Target & Warning -->
+                        <div class="bg-cyan-950/20 p-4 rounded-xl border border-cyan-500/20 mb-6 flex items-start gap-3">
+                            <span class="text-2xl mt-0.5">💪</span>
+                            <div>
+                                <p class="text-xs text-white font-bold">Nhận xét lộ trình:</p>
+                                <p class="text-xs text-slate-300 mt-0.5">Tối ưu hóa các sợi cơ ngực bằng máy ép ngực cố định và tạ đơn tự do, sau đó cô lập bắp tay.</p>
+                            </div>
+                        </div>
+
+                        <!-- Exercise Cards -->
+                        <div class="space-y-4">
+                            <!-- EX 1 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">1</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Seated Chest Press Machine</h4>
+                                        <p class="text-xs text-slate-400">Đẩy ngực trên máy ngồi cố định.</p>
+                                        <a href="https://vt.tiktok.com/ZS51VLHoV/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">4 sets × 12 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- EX 2 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">2</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Smith Machine Incline Chest Press</h4>
+                                        <p class="text-xs text-slate-400">Đẩy ngực dốc lên trên khung Smith dốc chéo.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcnXHjK/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 12, 12, 10 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- EX 3 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">3</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Chest Fly Machine</h4>
+                                        <p class="text-xs text-slate-400">Ép ngực cô lập phần cơ giữa ngực.</p>
+                                        <a href="https://vt.tiktok.com/ZSkc7sccv/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">5 sets × 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- EX 4 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">4</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Dumbbell Bench Press</h4>
+                                        <p class="text-xs text-slate-400">Nằm đẩy ngực phẳng với tạ đơn cầm tay tự do.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcnX2qa/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">4 sets × 12 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- EX 5 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">5</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Hammer Curl</h4>
+                                        <p class="text-xs text-slate-400">Cuốn búa tạ đơn bổ trợ độ dày bắp tay trước.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcnb6fe/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">5 sets × 12 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- EX 6 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">6</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Dumbbell Curl</h4>
+                                        <p class="text-xs text-slate-400">Cuốn tay trước xoay tạ đơn.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcnx6wW/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 12 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- EX 7 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">7</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Rope Cable Pushdown</h4>
+                                        <p class="text-xs text-slate-400">Đẩy cáp dây thừng cho cơ tay sau sắc nét.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcnHR83/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">4 sets × 15 reps</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- THỨ BA: LƯNG - VAI -->
+                <div id="panel-t3" class="day-panel hidden space-y-6">
+                    <div class="canva-card rounded-3xl p-6 shadow-2xl relative overflow-hidden">
+                        <div class="flex flex-col sm:flex-row justify-between items-start gap-4 border-b border-slate-700 pb-4 mb-4">
+                            <div>
+                                <span class="text-xs font-semibold text-cyan-400 tracking-widest uppercase">Thứ Ba • Tấm lưng rộng V-Taper</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-white mt-1">LƯNG RỘNG & VAI KHỎE</h3>
+                            </div>
+                            <div class="bg-slate-900 border border-cyan-500/30 px-4 py-2 rounded-2xl text-center min-w-[120px]">
+                                <p class="text-[10px] text-slate-400 uppercase font-bold">Thời gian</p>
+                                <p class="text-lg font-black text-white">75 - 90 Phút</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <!-- Pull Up -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">1</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Pull Up (Hít xà rộng tay)</h4>
+                                        <p class="text-xs text-slate-400">Dùng lực xô nâng trọng lượng cơ thể.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 12 - 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Rope Cable Pulldown -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">2</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Rope Cable Pulldown</h4>
+                                        <p class="text-xs text-slate-400">Kéo cáp dây thừng thẳng tay xô.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcW1udF/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Close grip lat pulldown -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">3</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Close Grip Lat Pulldown</h4>
+                                        <p class="text-xs text-slate-400">Kéo tay cầm hẹp ngửa tay vào sát phần xô trong.</p>
+                                        <a href="https://www.tiktok.com/@iamtreburns/video/7433162320324365574" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">5 sets × 12 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Lat pulldowns -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">4</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Lat Pulldowns</h4>
+                                        <p class="text-xs text-slate-400">Kéo xô ngang mặt với thanh đòn ngang.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcnEraa/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 15, 12, 10 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Seated cable rows -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">5</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Seated Cable Rows</h4>
+                                        <p class="text-xs text-slate-400">Ngồi chèo cáp kéo cơ lưng dầy.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcWh9eE/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Shoulder press machine -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">6</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Shoulder Press Machine</h4>
+                                        <p class="text-xs text-slate-400">Đẩy vai bằng máy tập cố định khớp vai.</p>
+                                        <a href="https://vt.tiktok.com/ZS57koTHk/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">4 sets × 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Incline dumbbell lateral -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-[#1f2937]/50 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">7</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Incline Dumbbell Lateral Raise</h4>
+                                        <p class="text-xs text-slate-400">Nằm nghiêng trên ghế dốc bay vai giữa.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcWVt74/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- DB Front raises -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">8</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Dumbbell Front Raises</h4>
+                                        <p class="text-xs text-slate-400">Nâng tạ trước cơ vai trước.</p>
+                                        <a href="https://vt.tiktok.com/ZS57BAukK/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 15 reps</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- THỨ TƯ: CHÂN -->
+                <div id="panel-t4" class="day-panel hidden space-y-6">
+                    <div class="canva-card rounded-3xl p-6 shadow-2xl relative overflow-hidden">
+                        <div class="flex flex-col sm:flex-row justify-between items-start gap-4 border-b border-slate-700 pb-4 mb-4">
+                            <div>
+                                <span class="text-xs font-semibold text-cyan-400 tracking-widest uppercase">Thứ Tư • Buổi tập chân bệ đỡ</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-white mt-1">CỘT TRỤ CHÂN ĐÙI QUYẾT ĐỊNH</h3>
+                            </div>
+                            <div class="bg-slate-900 border border-cyan-500/30 px-4 py-2 rounded-2xl text-center min-w-[120px]">
+                                <p class="text-[10px] text-slate-400 uppercase font-bold">Thời gian</p>
+                                <p class="text-lg font-black text-white">75 - 90 Phút</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <!-- Lunges -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">1</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Lunges (Đi lunge tấn trước)</h4>
+                                        <p class="text-xs text-slate-400">Sải bước cho cơ mông đùi sau dẻo dai.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcW7weE/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">2 sets × 15 reps / chân</span>
+                                </div>
+                            </div>
+
+                            <!-- Seated Leg extension -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">2</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Seated Leg Extension</h4>
+                                        <p class="text-xs text-slate-400">Đá đùi trước định hình bó cơ giọt nước đùi.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcW5P6x/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 15, 12, 10 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Lying Leg curl -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">3</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Lying Leg Curl</h4>
+                                        <p class="text-xs text-slate-400">Nằm móc đùi sau cô lập.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcWGjuM/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 15, 12, 10 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Squats -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">4</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Squats (Gánh đùi đòn tạ)</h4>
+                                        <p class="text-xs text-slate-400">Vua của mọi bài tập chân đùi lực sĩ.</p>
+                                        <a href="https://vt.tiktok.com/ZSkc7R7jf/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 12, 10, 8 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Seated Calf raises -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">5</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Seated Calf Raises</h4>
+                                        <p class="text-xs text-slate-400">Ngồi nhón bắp chuối bảo vệ khớp mắt cá.</p>
+                                        <a href="https://vt.tiktok.com/ZSkc721Wh/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 15 reps</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- THỨ NĂM: NGỰC - TAY -->
+                <div id="panel-t5" class="day-panel hidden space-y-6">
+                    <div class="canva-card rounded-3xl p-6 shadow-2xl relative overflow-hidden">
+                        <div class="flex flex-col sm:flex-row justify-between items-start gap-4 border-b border-slate-700 pb-4 mb-4">
+                            <div>
+                                <span class="text-xs font-semibold text-cyan-400 tracking-widest uppercase">Thứ Năm • Đập nát giới hạn ngực vai</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-white mt-1">NGỰC - TAY TRƯỚC VÀ SAU (BUỔI 2)</h3>
+                            </div>
+                            <div class="bg-slate-900 border border-cyan-500/30 px-4 py-2 rounded-2xl text-center min-w-[120px]">
+                                <p class="text-[10px] text-slate-400 uppercase font-bold">Thời gian</p>
+                                <p class="text-lg font-black text-white">75 - 90 Phút</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <!-- EX 1 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">1</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Barbell Incline Chest Press</h4>
+                                        <p class="text-xs text-slate-400">Đẩy ngực trên ghế dốc lên với đòn tạ tự do.</p>
+                                        <a href="https://vt.tiktok.com/ZSkc7Xj1Y/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">4 sets × 12 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- EX 2 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">2</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Dumbbell Bench Press</h4>
+                                        <p class="text-xs text-slate-400">Nằm đẩy tạ đơn ngực phẳng siêu tối ưu.</p>
+                                        <a href="https://vt.tiktok.com/ZSkc7qREQ/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 12, 10, 10 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- EX 3 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">3</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Chest Fly Machine</h4>
+                                        <p class="text-xs text-slate-400">Ép ngực cô lập phần cơ giữa ngực.</p>
+                                        <a href="https://vt.tiktok.com/ZSkc7sccv/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">5 sets × 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- EX 4 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">4</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Cable Crossover Lower Chest</h4>
+                                        <p class="text-xs text-slate-400">Kéo cáp chéo từ trên xuống cắt ngực dưới sắc nét.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcn33YA/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 12 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- EX 5 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">5</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Rope Cable Pushdown</h4>
+                                        <p class="text-xs text-slate-400">Đẩy cơ sau tạ cáp dầy bắp tay.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcnHR83/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">5 sets × 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- EX 6 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">6</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Hammer Curl</h4>
+                                        <p class="text-xs text-slate-400">Cuốn tay trước tư thế búa cầm tạ đơn.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcnb6fe/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">5 sets × 12 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- EX 7 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">7</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Barbell Curl</h4>
+                                        <p class="text-xs text-slate-400">Cuốn tay trước bằng thanh đòn thẳng Ez/đòn thẳng.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 10 reps</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- THỨ SÁU: LƯNG - VAI -->
+                <div id="panel-t6" class="day-panel hidden space-y-6">
+                    <div class="canva-card rounded-3xl p-6 shadow-2xl relative overflow-hidden">
+                        <div class="flex flex-col sm:flex-row justify-between items-start gap-4 border-b border-slate-700 pb-4 mb-4">
+                            <div>
+                                <span class="text-xs font-semibold text-cyan-400 tracking-widest uppercase">Thứ Sáu • Tấm lưng khổng lồ</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-white mt-1">LƯNG V-TAPER & VAI RỘNG (BUỔI 2)</h3>
+                            </div>
+                            <div class="bg-slate-900 border border-cyan-500/30 px-4 py-2 rounded-2xl text-center min-w-[120px]">
+                                <p class="text-[10px] text-slate-400 uppercase font-bold">Thời gian</p>
+                                <p class="text-lg font-black text-white">75 - 90 Phút</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <!-- Pull Up -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">1</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Pull Up (Hít xà rộng tay)</h4>
+                                        <p class="text-xs text-slate-300">Nâng xô sải cánh bằng sức mạnh tự nhiên.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 12 - 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Lat pulldowns -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">2</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Lat Pulldowns</h4>
+                                        <p class="text-xs text-slate-400">Kéo lưng xô ngang mặt cực đỉnh.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcnEraa/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">5 sets × 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Seated cable row -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">3</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Seated Cable Row</h4>
+                                        <p class="text-xs text-slate-400">Ngồi chèo cáp kéo cơ lưng dầy.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcWh9eE/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Cable Rope pulldowns -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">4</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Cable Rope Pulldowns</h4>
+                                        <p class="text-xs text-slate-400">Kéo cáp tạ dây thừng thẳng tay xô.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcW1udF/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Close grip lat pulldowns -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">5</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Close Grip Lat Pulldowns</h4>
+                                        <p class="text-xs text-slate-400">Kéo tay cầm hẹp ngửa tay vào sát phần xô trong.</p>
+                                        <a href="https://www.tiktok.com/@iamtreburns/video/7433162320324365574" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">5 sets × 12 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Smith machine shoulder press -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">6</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Smith Machine Shoulder Press</h4>
+                                        <p class="text-xs text-slate-400">Ngồi đẩy vai với khung Smith cố định đường đẩy.</p>
+                                        <a href="https://vt.tiktok.com/ZSkc7QjPq/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">4 sets × 12 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Incline lateral -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">7</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Incline Dumbbell Lateral Raise</h4>
+                                        <p class="text-xs text-slate-400">Nằm nghiêng bay vai giữa cô lập sâu.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcWVt74/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 15 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Dumbbell lateral -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">8</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Dumbbell Lateral Raise</h4>
+                                        <p class="text-xs text-slate-400">Đứng bay vai giữa bằng tạ đơn.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 15 reps</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- THỨ BẢY: CHÂN HUỶ DIỆT -->
+                <div id="panel-t7" class="day-panel hidden space-y-6">
+                    <div class="canva-card rounded-3xl p-6 shadow-2xl relative overflow-hidden">
+                        <div class="flex flex-col sm:flex-row justify-between items-start gap-4 border-b border-slate-700 pb-4 mb-4">
+                            <div>
+                                <span class="text-xs font-semibold text-cyan-400 tracking-widest uppercase">Thứ Bảy • Ngày hủy diệt bắp chân</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-white mt-1">HỦY DIỆT CHÂN ĐÙI QUY MÔ LỚN</h3>
+                            </div>
+                            <div class="bg-slate-900 border border-cyan-500/30 px-4 py-2 rounded-2xl text-center min-w-[120px]">
+                                <p class="text-[10px] text-slate-400 uppercase font-bold">Thời gian</p>
+                                <p class="text-lg font-black text-white">80 - 100 Phút</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <!-- Leg extention -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">1</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Leg Extension</h4>
+                                        <p class="text-xs text-slate-400">Đá đùi trước kích hoạt toàn bộ khớp gối dẻo dai.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcW5P6x/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">5 sets × 20 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Lunges -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">2</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Lunges</h4>
+                                        <p class="text-xs text-slate-400">Bước lunge sâu tăng kích cỡ cơ mông đùi sau.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcW7weE/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 10 - 12 reps / chân</span>
+                                </div>
+                            </div>
+
+                            <!-- Barbell squats -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">3</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Barbell Squats</h4>
+                                        <p class="text-xs text-slate-400">Gánh tạ đòn sâu bánh đúc.</p>
+                                        <a href="https://vt.tiktok.com/ZSkc7R7jf/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 10 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Leg press -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">4</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Leg Press</h4>
+                                        <p class="text-xs text-slate-400">Đạp đùi nghiêng khối lượng cực khủng.</p>
+                                        <a href="https://vt.tiktok.com/ZSkc7CKye/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 20 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Hack squat -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">5</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Hack Squat</h4>
+                                        <p class="text-xs text-slate-400">Squat máy nghiêng khóa hông an toàn lưng dưới.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">3 sets × 12 reps</span>
+                                </div>
+                            </div>
+
+                            <!-- Leg curl -->
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/60 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold shrink-0">6</div>
+                                    <div>
+                                        <h4 class="font-extrabold text-sm text-white">Leg Curl</h4>
+                                        <p class="text-xs text-slate-400">Móc đùi sau phục hồi cân bằng cơ đối nghịch.</p>
+                                        <a href="https://vt.tiktok.com/ZSkcWGjuM/" target="_blank" class="text-[10px] text-cyan-400 font-bold inline-flex items-center gap-1 mt-1.5 hover:underline bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/30">
+                                            <i class="fa-brands fa-tiktok text-cyan-400"></i> Video Hướng Dẫn
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between sm:justify-end gap-3 border-t border-slate-800 sm:border-0 pt-2 sm:pt-0">
+                                    <span class="text-xs font-extrabold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-lg border border-cyan-500/20">5 sets × 15 reps</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CHỦ NHẬT: NGHỈ HOÀN TOÀN -->
+                <div id="panel-cn" class="day-panel hidden">
+                    <div class="canva-card rounded-3xl p-8 shadow-2xl text-center relative overflow-hidden">
+                        <div class="w-20 h-20 rounded-3xl bg-cyan-500/10 text-cyan-400 border border-cyan-500/40 flex items-center justify-center text-4xl mx-auto mb-4">
+                            <i class="fa-solid fa-mug-hot"></i>
+                        </div>
+                        <h3 class="text-2xl font-black text-white">NGHỈ NGƠI HOÀN TOÀN</h3>
+                        <p class="text-sm text-[#22d3ee] mt-1 font-semibold uppercase tracking-wider">Rest & Recovery Day</p>
+                        <p class="text-slate-400 text-xs max-w-md mx-auto mt-3">
+                            Hôm nay hãy thả lỏng cơ thể tuyệt đối. Không nâng tạ nặng, tập trung ăn bù calo chất lượng và ngủ đủ 8 tiếng để chuẩn bị năng lượng tốt nhất cho một chu kỳ gieo cơ bắp mới tuần sau.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SECTION 3: MEAL PLAN -->
+        <div class="canva-card rounded-3xl p-6 mt-8 shadow-2xl relative">
+            <h2 class="text-xl font-bold mb-6 text-[#22d3ee] flex items-center gap-2 border-b border-cyan-500/20 pb-2">
+                <i class="fa-solid fa-utensils text-cyan-400"></i> THỰC ĐƠN BULKING LONG ANH
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <!-- SÁNG -->
+                <div class="bg-slate-900/80 p-5 rounded-2xl border-t-4 border-cyan-500 transition duration-300">
+                    <span class="px-2.5 py-0.5 text-[10px] font-bold text-cyan-400 bg-cyan-950 rounded-full border border-cyan-500/30 uppercase tracking-widest">Bữa Sáng</span>
+                    <div class="mt-3 space-y-2 text-xs">
+                        <p class="text-cyan-300 font-bold"><i class="fa-solid fa-pills text-cyan-400 mr-1.5"></i> 2 ống men vi sinh <span class="text-[10px] text-slate-400 font-normal">(trước ăn 30p)</span></p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 150g Thịt nạc</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 250g Cơm trắng</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 100g Quả dứa (thơm)</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 20g Lạc (đậu phộng)</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> Rau xanh tùy chọn</p>
+                    </div>
+                </div>
+
+                <!-- TRƯA -->
+                <div class="bg-slate-900/80 p-5 rounded-2xl border-t-4 border-cyan-500 transition duration-300">
+                    <span class="px-2.5 py-0.5 text-[10px] font-bold text-cyan-400 bg-cyan-950 rounded-full border border-cyan-500/30 uppercase tracking-widest">Bữa Trưa</span>
+                    <div class="mt-3 space-y-2 text-xs">
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 200g Thịt nạc</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 250g Cơm trắng</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 100g Quả dứa</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 50g Lạc</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> Rau xanh tùy chọn</p>
+                    </div>
+                </div>
+
+                <!-- CHIỀU -->
+                <div class="bg-slate-900/80 p-5 rounded-2xl border-t-4 border-cyan-500 transition duration-300">
+                    <span class="px-2.5 py-0.5 text-[10px] font-bold text-cyan-400 bg-cyan-950 rounded-full border border-cyan-500/30 uppercase tracking-widest">Bữa Chiều</span>
+                    <div class="mt-3 space-y-2 text-xs">
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 100g Thịt nạc</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 250g Cơm trắng</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 150g Quả dứa</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 1 Hộp sữa chua không đường</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 2 Quả chuối</p>
+                        <p class="text-cyan-300 font-bold"><span class="text-cyan-400">✔</span> 1 Serving Whey Protein</p>
+                    </div>
+                </div>
+
+                <!-- TỐI -->
+                <div class="bg-slate-900/80 p-5 rounded-2xl border-t-4 border-cyan-500 transition duration-300">
+                    <span class="px-2.5 py-0.5 text-[10px] font-bold text-cyan-400 bg-cyan-950 rounded-full border border-cyan-500/30 uppercase tracking-widest">Bữa Tối</span>
+                    <div class="mt-3 space-y-2 text-xs">
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 200g Thịt nạc</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 250g Cơm trắng</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> 150g Quả dứa</p>
+                        <p class="text-slate-300"><span class="text-cyan-400">✔</span> Rau xanh tùy chọn</p>
+                        <div class="pt-3 border-t border-slate-800">
+                            <span class="text-[10px] text-slate-400 italic font-semibold">* Lưu ý: Sử dụng cân tiểu ly để cân chuẩn lượng thức ăn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Switch Day JS and Rest Timer JS -->
+    <script>
+        function switchDay(dayId) {
+            // Hide all panels
+            const panels = document.querySelectorAll('.day-panel');
+            panels.forEach(p => p.classList.add('hidden'));
+
+            // Show active panel
+            document.getElementById('panel-' + dayId).classList.remove('hidden');
+
+            // Reset all buttons styling
+            const buttons = document.querySelectorAll('button[id^="btn-"]');
+            buttons.forEach(b => {
+                if (b.id === 'btn-timer-control') return;
+                
+                b.className = "tet-btn-inactive w-full flex items-center justify-between gap-4 p-3.5 rounded-xl text-left font-bold text-sm transition-all duration-300 min-w-[130px] lg:w-full";
+                
+                // Reset internal span colors
+                const spanNode = b.querySelector('span span');
+                if (spanNode) {
+                    spanNode.className = "w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center text-xs font-black border border-slate-700";
+                }
+            });
+
+            // Set active button styling
+            const activeBtn = document.getElementById('btn-' + dayId);
+            activeBtn.className = "tet-btn-active w-full flex items-center justify-between gap-4 p-3.5 rounded-xl text-left font-bold text-sm transition-all duration-300 min-w-[130px] lg:w-full";
+            
+            // Set active button inner tag style
+            const activeSpanNode = activeBtn.querySelector('span span');
+            if (activeSpanNode) {
+                activeSpanNode.className = "w-8 h-8 rounded-lg bg-white/20 text-white flex items-center justify-center text-xs font-black border border-white/40";
+            }
+        }
+
+        // Rest Timer Logic
+        let timerInterval = null;
+        let timeLeft = 90; // Default 1 minute 30 seconds
+        let isRunning = false;
+
+        function updateTimerDisplay() {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            document.getElementById('timer-display').innerText = 
+                `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
+
+        function toggleTimer() {
+            const controlBtn = document.getElementById('btn-timer-control');
+            if (isRunning) {
+                clearInterval(timerInterval);
+                controlBtn.innerHTML = '<i class="fa-solid fa-play"></i>';
+                controlBtn.classList.remove('bg-cyan-500/20', 'text-[#22d3ee]');
+                controlBtn.classList.add('bg-cyan-500/10', 'text-[#22d3ee]');
+                isRunning = false;
+            } else {
+                controlBtn.innerHTML = '<i class="fa-solid fa-pause"></i>';
+                controlBtn.classList.remove('bg-cyan-500/10', 'text-[#22d3ee]');
+                controlBtn.classList.add('bg-cyan-500/30', 'text-white');
+                isRunning = true;
+                
+                timerInterval = setInterval(() => {
+                    if (timeLeft > 0) {
+                        timeLeft--;
+                        updateTimerDisplay();
+                    } else {
+                        clearInterval(timerInterval);
+                        controlBtn.innerHTML = '<i class="fa-solid fa-play"></i>';
+                        controlBtn.classList.remove('bg-cyan-500/30', 'text-white');
+                        controlBtn.classList.add('bg-cyan-500/10', 'text-[#22d3ee]');
+                        isRunning = false;
+                        timeLeft = 90; // Reset
+                        updateTimerDisplay();
+                        
+                        // Soft Notification sound
+                        try {
+                            const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                            const oscillator = audioCtx.createOscillator();
+                            const gainNode = audioCtx.createGain();
+                            oscillator.connect(gainNode);
+                            gainNode.connect(audioCtx.destination);
+                            oscillator.type = 'sine';
+                            oscillator.frequency.setValueAtTime(880, audioCtx.currentTime); // A5 note
+                            gainNode.gain.setValueAtTime(0.1, audioCtx.currentTime);
+                            oscillator.start();
+                            oscillator.stop(audioCtx.currentTime + 0.3);
+                        } catch(e) {}
+                    }
+                }, 1000);
+            }
+        }
+
+        function resetTimer() {
+            clearInterval(timerInterval);
+            timeLeft = 90;
+            isRunning = false;
+            updateTimerDisplay();
+            const controlBtn = document.getElementById('btn-timer-control');
+            controlBtn.innerHTML = '<i class="fa-solid fa-play"></i>';
+            controlBtn.classList.remove('bg-cyan-500/30', 'text-white');
+            controlBtn.classList.add('bg-cyan-500/10', 'text-[#22d3ee]');
+        }
+    </script>
+</body>
+</html>
